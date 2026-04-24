@@ -1,0 +1,10 @@
+document.getElementById("calculateBtn").addEventListener("click", function() {
+    let plan = document.getElementById("plans").value;
+    let result = document.getElementById("result");
+
+    if (plan === "month") {
+        result.textContent = "Cena: 10€ menesi";
+    } else if (plan === "year") {
+        result.textContent = "Cena: 100€ gada";
+    }
+});
