@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikacijas abonements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aplikacijas abonements</h1>
+
+<p>Izvelies abonesanas periodu un uzzini cenu!</p>
+
+<label for="plans">Izvelies planu:</label>
+<select id="plans">
+    <option value="month">Menesa plans (10€)</option>
+    <option value="year">Gada plans (100€)</option>
+</select>
+
+<br><br>
+
+<button id="calculateBtn">Aprekinat</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
